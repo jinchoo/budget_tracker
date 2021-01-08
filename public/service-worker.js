@@ -70,6 +70,7 @@ self.addEventListener("fetch", (evt) => {
         })
         .catch((err) => console.log(err))
     );
+    
 
     // stop execution of the fetch event callback
     return;
